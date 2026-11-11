@@ -9,12 +9,6 @@ body {
     background-color: rgb(111, 111, 98);
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
 header {
     background-color: rgb(94, 94, 77);
     padding: 40px 0;
@@ -25,6 +19,12 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.header-wrapper img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* BILDSPELET */
@@ -52,3 +52,30 @@ header {
     user-select: none;
 }
 
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgb(0,0,0,0.8);
+}
+
+/* TEXTEN PÅ BILDSPELET*/
+.text {
+    color: black;
+    font-size: 1rem;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: black;
+    font-size: 1rem;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
