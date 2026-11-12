@@ -58,6 +58,9 @@ nav ul li a {
 }
 
 .mySlides {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
     display: none;
 }
 
