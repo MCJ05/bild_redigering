@@ -6,7 +6,7 @@
 
 body {
     margin: 0;
-    background-color: rgb(111, 111, 98);
+    background-color: rgb(111, 111, 101);
 }
 
 header {
@@ -25,7 +25,7 @@ img {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 20px;
+    padding: 15px 10px;
 }
 
 nav ul {
@@ -143,6 +143,29 @@ nav ul li a {
 footer {
     background-color: rgb(94, 94, 77);
     padding: 20px 20px;
+}
+
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+        "logo-footer nav-footer";
+    gap: 1rem;
+    margin: 0 auto;
+    align-items: start;
+}
+
+.logo-footer {
+    grid-area: logo-footer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+/* FOOTER NAV */
+.nav-footer {
+    grid-area: nav-footer;
 }
 
 footer nav ul {
