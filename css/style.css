@@ -44,12 +44,19 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* MAIN */
 /* BILDSPELET */
 .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
 }
+
+.slideshow-container h1 {
+    font-size: 1.6rem;
+    padding: 30px;
+}
+
 .mySlides {
     display: none;
 }
@@ -78,7 +85,6 @@ nav ul li a {
     background-color: rgb(0,0,0,0.8);
 }
 
-/* MAIN */
 /* TEXTEN PÅ BILDSPELET*/
 .text {
     color: black;
@@ -121,6 +127,16 @@ nav ul li a {
 @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+}
+
+.main h2 {
+    font-size: 1.5rem;
+    padding: 0 30px 0 30px;
+}
+
+.main p {
+    font-size: 1.1rem;
+    padding: 0 30px 0 30px;
 }
 
 /* FOOTER */
