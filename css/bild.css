@@ -101,7 +101,12 @@ footer nav ul li a {
     font-weight: bold;
 }
 
-@media(min-width: 900px) {
+/* DESKTOP */
+@media(min-width: 1000px) {
+    /* HEADER */
+
+   
+    /* BILDER */
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -154,4 +159,7 @@ footer nav ul li a {
     .card-grid6 {
         grid-area: card-grid6;
     }
+
+    /* FOOTER */
+
 }

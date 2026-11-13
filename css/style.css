@@ -153,8 +153,8 @@ footer nav ul li a {
 }
 
 /* DESKTOP */
-@media(min-width: 800px) {
-    .header-wrapper {
+@media(min-width: 1000px) {
+      .header-wrapper {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -165,10 +165,6 @@ footer nav ul li a {
         max-height: 700px;
     }
 
-}
-
-/* DESKTOP */
-@media(min-width: 1000px) {
     .footer-wrapper {
         display: grid;
         grid-template-columns: 2fr 2fr;
