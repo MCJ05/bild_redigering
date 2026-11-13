@@ -46,7 +46,22 @@ nav ul li a {
 }
 
 /* MAIN */
+.main-wrapper {
+    padding: 15px;
+}
 
+.main-wrapper h1 {
+    font-size: 1.6rem;
+}
+
+.main-wrapper p {
+    font-size: 1.1rem;
+}
+
+.side-wrapper h2 {
+    font-size: 1.6rem;
+    padding: 15px;
+}
 
 /* FOOTER */
 footer {
