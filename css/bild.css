@@ -134,28 +134,17 @@ footer nav ul li a {
         grid-template-areas:
         "h1 h1"
         "card-grid1 card-grid2"
-        "p1 p1"
-        "card-grid3 card-grid4"
-        "p2 p2"
-        "card-grid5 card-grid6"
-        "p3 p3";
+        "card-grid3 card-grid3"
+        "card-grid4 card-grid5"
+        "card-grid6 card-grid6"
+        "card-grid7 card-grid8"
+        "card-grid9 card-grid9";
     }
 
     .grid-container h1 {
         grid-area: h1;
     }
 
-    .grid-container p1 {
-        grid-area: p1;
-    }
-
-    .grid-container p2 {
-        grid-area: p2;
-    }
-
-    .grid-container p3 {
-        grid-area: p3;
-    }
 
     .card-grid1 {
         grid-area: card-grid1;
@@ -167,6 +156,11 @@ footer nav ul li a {
 
     .card-grid3 {
         grid-area: card-grid3;
+        padding: 15px;
+    }
+
+    .card-grid3 p {
+        font-size: 1.1rem;
     }
 
     .card-grid4 {
@@ -179,6 +173,28 @@ footer nav ul li a {
 
     .card-grid6 {
         grid-area: card-grid6;
+        padding: 15px;
+    }
+
+    .card-grid6 p {
+        font-size: 1.1rem;
+    }
+
+    .card-grid7 {
+        grid-area: card-grid7;
+    }
+
+    .card-grid8 {
+        grid-area: card-grid8;
+    }
+
+    .card-grid9 {
+        grid-area: card-grid9;
+        padding: 15px;
+    }
+
+    .card-grid9 p {
+        font-size: 1.1rem;
     }
 
     /* FOOTER */
