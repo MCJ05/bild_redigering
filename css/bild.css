@@ -46,8 +46,21 @@ nav ul li a {
 }
 
 /* MAIN */
-.box {
+.box{
+    padding: 20px;
+}
 
+.grid-container {
+    padding: 10px 10px;
+}
+
+.grid-container h1 {
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.grid-container p {
+    font-size: 1.1em;
 }
 
 /* FOOTER */
@@ -86,4 +99,59 @@ footer nav ul li a {
     text-decoration: none;
     font-size: 1.1em;
     font-weight: bold;
+}
+
+@media(min-width: 900px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "h1 h1"
+        "card-grid1 card-grid2"
+        "p1 p1"
+        "card-grid3 card-grid4"
+        "p2 p2"
+        "card-grid5 card-grid6"
+        "p3 p3";
+    }
+
+    .grid-container h1 {
+        grid-area: h1;
+    }
+
+    .grid-container p1 {
+        grid-area: p1;
+    }
+
+    .grid-container p2 {
+        grid-area: p2;
+    }
+
+    .grid-container p3 {
+        grid-area: p3;
+    }
+
+    .card-grid1 {
+        grid-area: card-grid1;
+    }
+
+    .card-grid2 {
+        grid-area: card-grid2;
+    }
+
+    .card-grid3 {
+        grid-area: card-grid3;
+    }
+
+    .card-grid4 {
+        grid-area: card-grid4;
+    }
+
+    .card-grid5 {
+        grid-area: card-grid5;
+    }
+
+    .card-grid6 {
+        grid-area: card-grid6;
+    }
 }
