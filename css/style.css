@@ -154,11 +154,23 @@ footer nav ul li a {
 
 /* DESKTOP */
 @media(min-width: 1000px) {
-      .header-wrapper {
-        display: flex;
+    .header-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "logo-header nav-header";
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        gap: 1rem;
+    }
+
+    .logo-header {
+        grid-area: logo-header;
+    }
+
+    .nav-header {
+        grid-area: nav-header;
     }
 
     .mySlides img {
@@ -182,6 +194,10 @@ footer nav ul li a {
 
     .nav-footer {
         grid-area: nav-footer;
-        text-align: center;
+        justify-content: flex-start;
+    }
+
+    .nav-footer ul li a {
+        font-size: 1.3em;
     }
 }
