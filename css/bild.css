@@ -12,3 +12,20 @@ body {
 header {
     background-color: rgb(94, 94, 77);
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* HEADER */
+
+
+/* NAV */
+
+
+/* MAIN */
+
+
+/* FOOTER */
