@@ -46,7 +46,7 @@ nav ul li a {
 }
 
 /* MAIN */
-.container {
+.grid-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -147,7 +147,7 @@ footer nav ul li a {
         font-weight: bold;
     }
 
-    .container {
+    .grid-container {
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-template-areas:
