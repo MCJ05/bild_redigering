@@ -177,4 +177,30 @@ footer nav ul li a {
         font-size: 1.9rem;
         padding: 30px;
     }
+
+    /* FOOTER */
+    .footer-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-areas:
+        "logo-footer nav-footer";
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .logo-footer {
+        grid-area: logo-footer;
+        justify-content: flex-start;
+        margin: 1rem 0;
+    }
+
+    .nav-footer {
+        grid-area: nav-footer;
+        text-align: center;
+    }
+
+    .nav-footer ul li a {
+        font-size: 1.3em;
+    }
 }
