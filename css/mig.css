@@ -48,8 +48,9 @@ nav ul li a {
 /* MAIN */
 .grid-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    gap: 1rem;
 }
 
 .main-wrapper {
