@@ -119,7 +119,6 @@ footer nav ul li a {
         gap: 1rem;
     }
 
-
     .logo-header {
         grid-area: logo-header;
         display: flex;
@@ -128,8 +127,8 @@ footer nav ul li a {
         justify-content: center;
         margin: 1rem;
     }
-
-    .header-wrapper nav {
+    
+    .nav-header {
         grid-area: nav-header;
         display: flex;
         flex-direction: row;
@@ -137,10 +136,6 @@ footer nav ul li a {
         text-align: center;
         justify-content: center;
         gap: 20px;
-    }
-    
-    .nav-header {
-        grid-area: nav-header;
     }
 
     .nav-header nav ul li a {
